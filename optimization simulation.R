@@ -83,6 +83,8 @@ return(output)
 }
 
 
+## Run a simulation:
+
 lambda0 = 0.2 
 year = 1
 days_in_year= 36
