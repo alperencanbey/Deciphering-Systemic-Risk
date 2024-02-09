@@ -1,4 +1,5 @@
-#This code consists the base functions which are necessary to create the stochastic intensity process
+#This code consists the base functions which are necessary to create the stochastic intensity process,
+#simulated CDS prices, and the derivatives of the CDS pricing function wrt the parameters.
 
 
 #lambda demonstrates the intensity process which follows Cox–Ingersoll–Ross model.
