@@ -3,6 +3,8 @@
 ## Overview
 A simulation exercise for an optimization problem to extract parameters from CDS data. Employed a stochastic intensity process ([Cox–Ingersoll–Ross model](https://en.wikipedia.org/wiki/Cox%E2%80%93Ingersoll%E2%80%93Ross_model)) to model daily default probabilities, integrating this into the CDS pricing formula which can be found in [Appendix of Ang and Longstaff 2013](https://www.sciencedirect.com/science/article/pii/S0304393213000585). The optimization involves a two-step process combining non-linear least squares for intensity values and gradient descent for parameter optimization, aiming to accurately recover parameters in the stochastic process which are mean, speed of mean reversion, and volatility. The study also aims to demonstrate the asymptotic properties and robustness of the estimator across different sample sizes.
 
+Note: The full report can be found in this repository.
+
 ## Tools Used
 - **R:** Utilized for simulation and parameter estimation.
 - **MATLAB:** Utilized for data visualization.
